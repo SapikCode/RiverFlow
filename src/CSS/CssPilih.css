@@ -1,0 +1,43 @@
+#pilihansatu{
+    -fx-background-color:white;
+}
+
+
+#pilihansatu:hover{
+    -fx-background-color:#1F6E8C;
+    -fx-border-color:white;
+    -fx-border-radius:30;
+}
+
+#pilihandua{
+    -fx-background-color:white;
+}
+
+
+#pilihandua:hover{
+    -fx-background-color:#1F6E8C;
+    -fx-border-color:white;
+    -fx-border-radius:30;
+}
+#pilihantiga{
+    -fx-background-color:white;
+}
+
+
+#pilihantiga:hover{
+    -fx-background-color:#1F6E8C;
+    -fx-border-color:white;
+    -fx-border-radius:30;
+}
+
+#login {
+    -fx-background-color:white;
+}
+
+
+#login:hover{
+    -fx-background-color:#1F6E8C;
+    -fx-border-color:white;
+    -fx-border-radius:30;
+    -fx-text-fill:white;
+}

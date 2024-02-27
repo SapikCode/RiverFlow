@@ -1,0 +1,42 @@
+#button{
+    -fx-background-color:#1F6E8C;
+    -fx-border-radius: 30;
+    -fx-border-color:rgb(255, 255, 255);
+    -fx-background-radius: 30;
+    -fx-padding: 5;
+    -fx-text-fill:white;
+}
+#button:hover{
+    -fx-background-color:gray;
+    -fx-text-fill:white;
+}
+.root{
+    -fx-background:#9AC5F4;
+    -fx-font-size: 14pt;
+    -fx-font-family: "Tahoma";
+    -fx-background-radius:30;
+    -fx-border-radius:10;
+    -fx-border:5px solid white;
+}
+
+#isian{
+    -fx-background-color:#F4F4F6;
+    -fx-background-radius:30;
+    -fx-border-radius:30;
+    -fx-border-color:Gray;
+    -fx-text-fill:Gray;
+}
+
+#image{
+    -fx-background-radius:30;
+}
+
+#ButtonLogo{
+    -fx-background-color:#1F6E8C;
+    -fx-background-radius:30;
+}
+
+#ButtonLogoDua{
+    -fx-background-color:white;
+    -fx-background-radius:30;
+}
