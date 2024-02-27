@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 
 public class FXMLAnalis implements Initializable{
     @FXML
-    private Button catatan;
+    private Button catat;
 
     @FXML
     private Button pesan;
