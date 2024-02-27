@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Libarary exstream/xstream-1.4.10.jar"
+    ]
+}
