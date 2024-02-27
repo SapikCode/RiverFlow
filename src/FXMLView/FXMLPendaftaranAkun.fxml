@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController.FXMLPendaftaranAkun">
+   <children>
+      <Button fx:id="logindaftar" layoutX="583.0" layoutY="485.0" mnemonicParsing="false" onAction="#dipencetlogindaftar" style="-fx-background-color: white;" text="Login" textFill="#1f6e8c">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fill="#1f6e8c" layoutX="47.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buat Akun Anda" wrappingWidth="274.0">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Tfnama" layoutX="40.0" layoutY="183.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <TextField fx:id="Tfusername" layoutX="40.0" layoutY="245.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <TextField fx:id="Tfemail" layoutX="408.0" layoutY="183.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <TextField fx:id="Tfpassword" layoutX="40.0" layoutY="307.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <TextField fx:id="Tftanggal" layoutX="40.0" layoutY="375.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <TextField fx:id="Tfnohp" layoutX="408.0" layoutY="245.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <TextField fx:id="Tfdomisili" layoutX="408.0" layoutY="307.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <Label layoutX="40.0" layoutY="155.0" text="Nama">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="217.0" text="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="279.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="350.0" text="Tanggal Lahir(dd/mm/yyyy)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="409.0" text="Jenis Kelamin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="155.0" text="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="407.0" layoutY="217.0" text="Nomor Handphone">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="407.0" layoutY="279.0" text="Domisili">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="406.0" layoutY="350.0" text="Pilih Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="simpan" layoutX="408.0" layoutY="434.0" mnemonicParsing="false" onAction="#dipencetsimpan" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: #9AC5F4; -fx-background-radius: 8;" text="Simpan">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="452.0" layoutY="490.0" text="Sudah punya akun?">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Tfpilihlog" layoutX="408.0" layoutY="375.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+      <ImageView fitHeight="326.0" fitWidth="331.0" layoutX="722.0" layoutY="187.0">
+         <image>
+            <Image url="@../Gambar/createAccount.jpg" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="Tfjekel" layoutX="40.0" layoutY="437.0" prefHeight="34.0" prefWidth="274.0" style="-fx-background-color: white; -fx-border-color: #1F6E8C; -fx-border-radius: 8;" />
+   </children>
+</AnchorPane>

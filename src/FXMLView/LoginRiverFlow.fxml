@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="956.0" style="-fx-background-color: #1F6E8C;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController.FXMLLoginRiverFlow">
+   <children>
+      <ImageView fitHeight="227.0" fitWidth="299.0" layoutX="146.0" layoutY="180.0">
+         <image>
+            <Image url="@../Gambar/RiverFlowLogo.png" />
+         </image>
+      </ImageView>
+      <Line endX="-31.5999755859375" endY="-63.59999084472656" layoutX="474.0" layoutY="224.0" startX="-31.5999755859375" startY="60.399993896484375" stroke="WHITE" />
+      <Line endX="-31.5999755859375" endY="-63.59999084472656" layoutX="475.0" layoutY="378.0" startX="-31.5999755859375" startY="60.399993896484375" stroke="WHITE" />
+      <Circle fill="WHITE" layoutX="442.0" layoutY="299.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" />
+      <ImageView fitHeight="265.0" fitWidth="346.0" layoutX="478.0" layoutY="168.0">
+         <image>
+            <Image url="@../Gambar/LoginText.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="166.0" layoutX="360.0" layoutY="533.0">
+         <image>
+            <Image url="@../Gambar/Overflow.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ac5f4" height="227.0" layoutX="-145.0" layoutY="-99.0" rotate="-37.2" stroke="#9ac5f4" strokeType="INSIDE" width="357.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#569eb9" height="73.0" layoutX="-103.0" layoutY="49.0" rotate="-37.9" stroke="#569eb9" strokeType="INSIDE" width="472.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#569eb9" height="73.0" layoutX="592.0" layoutY="484.0" rotate="-37.3" stroke="#569eb9" strokeType="INSIDE" width="464.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ac5f4" height="217.0" layoutX="747.0" layoutY="518.0" rotate="-37.3" stroke="#9ac5f4" strokeType="INSIDE" width="357.0" />
+      <Button fx:id="login" layoutX="591.0" layoutY="381.0" mnemonicParsing="false" onAction="#dipencetlogin" prefHeight="31.0" prefWidth="126.0" style="-fx-background-radius: 30;" stylesheets="@../CSS/CssPilih.css" text="Mulai" textFill="#2b88a4">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

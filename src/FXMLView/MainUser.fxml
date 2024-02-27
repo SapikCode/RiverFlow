@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1027.0" style="-fx-background-color: #9AC5F4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController.FXMLUser">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="205.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutY="349.0" mnemonicParsing="false" opacity="0.0" prefHeight="31.0" prefWidth="205.0" text="LogOut" />
+            <Button alignment="BASELINE_LEFT" defaultButton="true" layoutX="2.0" layoutY="268.0" mnemonicParsing="false" opacity="0.0" prefHeight="37.0" prefWidth="205.0" style="-fx-background-color: white;" text="Berita">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Line endX="102.33332824707031" layoutX="103.0" layoutY="204.0" startX="-100.0" stroke="#aca6a6" />
+            <Button alignment="BASELINE_LEFT" defaultButton="true" layoutX="2.0" layoutY="231.0" mnemonicParsing="false" opacity="0.0" prefHeight="37.0" prefWidth="205.0" style="-fx-background-color: white;" text="Menu Utama" textFill="#522626">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Label layoutX="33.0" layoutY="161.0" prefHeight="27.0" prefWidth="126.0" text="Hi,">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="71.0" layoutY="98.0">
+               <image>
+                  <Image url="@../Picture/iconProfile.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="313.0">
+               <image>
+                  <Image url="@../Picture/profile-user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="237.0">
+               <image>
+                  <Image url="@../Picture/main-menu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="274.0">
+               <image>
+                  <Image url="@../Picture/infoNews.png" />
+               </image>
+            </ImageView>
+            <Button alignment="BASELINE_LEFT" layoutX="3.0" layoutY="307.0" mnemonicParsing="false" opacity="0.0" prefHeight="37.0" prefWidth="203.0" text="Profile" />
+            <Text layoutX="56.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Berita">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="57.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="352.0">
+               <image>
+                  <Image url="@../Picture/logout.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="51.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logout">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="68.0" layoutY="98.0">
+               <image>
+                  <Image url="@../Gambar/iconProfile.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="17.0" layoutY="236.0">
+               <image>
+                  <Image url="@../Gambar/infoNews.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="16.0" layoutY="274.0">
+               <image>
+                  <Image url="@../Gambar/profile-user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="17.0" layoutY="313.0">
+               <image>
+                  <Image url="@../Gambar/logout.png" />
+               </image>
+            </ImageView>
+            <Pane layoutY="7.0" prefHeight="600.0" prefWidth="205.0" style="-fx-background-color: white;">
+               <children>
+                  <Button alignment="BASELINE_LEFT" defaultButton="true" layoutX="2.0" layoutY="268.0" mnemonicParsing="false" opacity="0.0" prefHeight="37.0" prefWidth="205.0" style="-fx-background-color: white;">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Line endX="102.33332824707031" layoutX="103.0" layoutY="204.0" startX="-100.0" stroke="#aca6a6" />
+                  <Button fx:id="berita" alignment="BASELINE_LEFT" defaultButton="true" layoutX="2.0" layoutY="231.0" mnemonicParsing="false" onAction="#dipencetberita" opacity="0.0" prefHeight="37.0" prefWidth="205.0" style="-fx-background-color: white;" textFill="#522626">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label fx:id="Namauser" layoutX="68.0" layoutY="161.0" prefHeight="27.0" prefWidth="126.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="71.0" layoutY="98.0">
+                     <image>
+                        <Image url="@../Picture/iconProfile.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="313.0">
+                     <image>
+                        <Image url="@../Picture/profile-user.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="237.0">
+                     <image>
+                        <Image url="@../Picture/main-menu.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="274.0">
+                     <image>
+                        <Image url="@../Picture/infoNews.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="logout" alignment="BASELINE_LEFT" layoutX="3.0" layoutY="307.0" mnemonicParsing="false" onAction="#dipencetlogout" opacity="0.0" prefHeight="37.0" prefWidth="203.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text layoutX="56.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Berita">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="57.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="51.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logout">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="68.0" layoutY="98.0">
+                     <image>
+                        <Image url="@../Gambar/iconProfile.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="17.0" layoutY="236.0">
+                     <image>
+                        <Image url="@../Gambar/infoNews.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="16.0" layoutY="274.0">
+                     <image>
+                        <Image url="@../Gambar/profile-user.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="17.0" layoutY="313.0">
+                     <image>
+                        <Image url="@../Gambar/logout.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <VBox layoutX="52.0" layoutY="392.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f6e8c" height="90.0" layoutX="-25.0" layoutY="-3.0" stroke="#fdf9f9" strokeType="INSIDE" width="1053.0" />
+      <Pane layoutX="502.0" layoutY="373.0" prefHeight="192.0" prefWidth="171.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="119.0" layoutX="28.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Picture/KaliWinongo.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#1f6e8c" layoutX="38.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kali Winongo" wrappingWidth="101.66662597656256">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="110.0" fitWidth="136.0" layoutX="18.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Gambar/KaliWinongo.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="60.0" layoutY="163.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text fill="#fbf5f5" layoutX="76.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lihat" />
+         </children>
+      </Pane>
+      <Text fill="WHITE" layoutX="260.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PILIH SUNGAI" wrappingWidth="160.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Pane layoutX="502.0" layoutY="155.0" prefHeight="192.0" prefWidth="171.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="119.0" layoutX="28.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Picture/SungaiOyo.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#1f6e8c" layoutX="46.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sungai Oyo" wrappingWidth="84.9999389648438">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="110.0" fitWidth="136.0" layoutX="20.0" layoutY="19.0">
+               <image>
+                  <Image url="@../Gambar/SungaiOyo.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="60.0" layoutY="163.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text fill="#fbf5f5" layoutX="75.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lihat" />
+         </children>
+      </Pane>
+      <Pane layoutX="732.0" layoutY="373.0" prefHeight="192.0" prefWidth="171.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="119.0" layoutX="28.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Picture/SungaiKrasak.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#1f6e8c" layoutX="37.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sungai Krasak" wrappingWidth="101.66662597656256">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="117.0" fitWidth="136.0" layoutX="20.0" layoutY="14.0">
+               <image>
+                  <Image url="@../Gambar/SungaiKrasak.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="58.0" layoutY="163.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text fill="#fbf5f5" layoutX="73.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lihat" />
+         </children>
+      </Pane>
+      <Pane layoutX="732.0" layoutY="155.0" prefHeight="192.0" prefWidth="171.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="119.0" layoutX="28.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Picture/SungaiProgo.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#1f6e8c" layoutX="35.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sungai Progo" wrappingWidth="101.66662597656256">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="110.0" fitWidth="136.0" layoutX="20.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Gambar/SungaiProgo.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="58.0" layoutY="163.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text fill="#fbf5f5" layoutX="73.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lihat" />
+         </children>
+      </Pane>
+      <Pane layoutX="254.0" layoutY="155.0" prefHeight="192.0" prefWidth="171.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Text fill="#1f6e8c" layoutX="46.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BlueLagoon" wrappingWidth="84.9999389648438">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="110.0" fitWidth="119.0" layoutX="29.0" layoutY="21.0">
+               <image>
+                  <Image url="@../Picture/blueLagoon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="136.0" layoutX="18.0" layoutY="14.0">
+               <image>
+                  <Image url="@../Gambar/blueLagoon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="lagoon" layoutX="58.0" layoutY="163.0" mnemonicParsing="false" onAction="#dipencetlagoon" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text fill="#fbf5f5" layoutX="73.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lihat" />
+         </children>
+      </Pane>
+      <Pane layoutX="254.0" layoutY="373.0" prefHeight="192.0" prefWidth="171.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Text fill="#1f6e8c" layoutX="52.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kali Code" wrappingWidth="70.99996948242193">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="110.0" fitWidth="119.0" layoutX="28.0" layoutY="22.0">
+               <image>
+                  <Image url="@../Picture/KaliCode.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="136.0" layoutX="20.0" layoutY="14.0">
+               <image>
+                  <Image url="@../Gambar/KaliCode.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="60.0" layoutY="163.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Text fill="#fbf5f5" layoutX="75.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lihat" />
+         </children>
+      </Pane>
+      <Button fx:id="lainnya" layoutX="804.0" layoutY="95.0" mnemonicParsing="false" onAction="#dipencetlainnya" prefHeight="37.0" prefWidth="188.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;" text="Data Sungai Lainnya" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

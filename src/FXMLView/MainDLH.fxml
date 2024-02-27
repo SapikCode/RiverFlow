@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #9AC5F4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController.FXMLDLH">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f6e8c" height="118.0" layoutX="-1.0" layoutY="-18.0" stroke="WHITE" strokeType="OUTSIDE" width="1295.0" />
+      <ImageView fitHeight="211.0" fitWidth="294.0" layoutX="984.0" layoutY="-54.0">
+         <image>
+            <Image url="@../Gambar/RiverFlowLogo.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="81.00000762939453" layoutX="1098.0" layoutY="11.0" startX="-100.0" stroke="WHITE" />
+      <Text fill="WHITE" layoutX="905.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DLH">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Button fx:id="keluar" layoutX="112.0" layoutY="20.0" mnemonicParsing="false" onAction="#keluardlh" prefHeight="62.0" prefWidth="180.0" style="-fx-background-color: white; -fx-background-radius: 30;" text="LogOut" textFill="#1f6e8c">
+         <font>
+            <Font size="29.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="inputsungai" layoutX="112.0" layoutY="186.0" mnemonicParsing="false" onAction="#dipencetinput" prefHeight="226.0" prefWidth="262.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="rekap" layoutX="465.0" layoutY="186.0" mnemonicParsing="false" onAction="#dipencetrekap" prefHeight="226.0" prefWidth="262.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="surat" layoutX="112.0" layoutY="493.0" mnemonicParsing="false" onAction="#dipencetsurattugas" prefHeight="226.0" prefWidth="262.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="inputrekap" layoutX="471.0" layoutY="493.0" mnemonicParsing="false" onAction="#dipencetinputrekap" prefHeight="226.0" prefWidth="262.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fill="#1f6e8c" layoutX="132.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Data Sungai">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="174.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surat Tugas ">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="511.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Data Lab">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="502.0" layoutY="667.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Rekap Sungai" textAlignment="CENTER" wrappingWidth="213.069580078125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="695.0" fitWidth="331.0" layoutX="964.0" layoutY="101.0">
+         <image>
+            <Image url="@../Gambar/BackgroundDLH.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="132.0" layoutX="174.0" layoutY="206.0">
+         <image>
+            <Image url="@../Gambar/InputDLH.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="132.0" layoutX="177.0" layoutY="518.0">
+         <image>
+            <Image url="@../Gambar/envelope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="122.0" layoutX="528.0" layoutY="210.0">
+         <image>
+            <Image url="@../Gambar/iconlab.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="545.0" layoutY="509.0">
+         <image>
+            <Image url="@../Gambar/report.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

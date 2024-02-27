@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #9AC5F4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController.FXMLDataRekap">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f6e8c" height="126.0" layoutX="-5.0" layoutY="-22.0" stroke="WHITE" strokeType="OUTSIDE" width="1006.0" />
+      <ImageView fitHeight="174.0" fitWidth="228.0" layoutX="785.0" layoutY="-35.0">
+         <image>
+            <Image url="@../Gambar/RiverFlowLogo.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="81.00000762939453" layoutX="885.0" layoutY="11.0" startX="-100.0" stroke="WHITE" />
+      <Text fill="WHITE" layoutX="509.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Sungai">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button layoutX="81.0" layoutY="176.0" mnemonicParsing="false" prefHeight="576.0" prefWidth="811.0" style="-fx-background-color: #1F6E8C; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="79.0" layoutY="169.0" mnemonicParsing="false" prefHeight="576.0" prefWidth="811.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button fx:id="kembali" layoutX="22.0" layoutY="32.0" mnemonicParsing="false" onAction="#kembalikemenu" prefHeight="37.0" prefWidth="65.0" style="-fx-background-color: white; -fx-background-radius: 30;" text="Back" textFill="#1f6e8c">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#376794" height="63.0" layoutX="276.0" layoutY="258.0" stroke="WHITE" strokeType="INSIDE" width="11.0" />
+      <Label layoutX="303.0" layoutY="258.0" prefHeight="142.0" prefWidth="282.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+              </items>
+            </ContextMenu>
+         </contextMenu></Label>
+      <Label layoutX="88.0" layoutY="250.0" prefHeight="142.0" prefWidth="159.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#376794" height="63.0" layoutX="276.0" layoutY="457.0" stroke="WHITE" strokeType="INSIDE" width="11.0" />
+      <Text fill="#1f6e8c" layoutX="303.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suhu :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="301.0" layoutY="488.0" prefHeight="32.0" prefWidth="108.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" text="           20 C" />
+      <Text fill="#1f6e8c" layoutX="301.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warna :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="303.0" layoutY="209.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="134.0" style="-fx-background-color: #376794; -fx-background-radius: 15;" />
+      <Text fill="WHITE" layoutX="316.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="301.0" layoutY="414.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="208.0" style="-fx-background-color: #376794; -fx-background-radius: 15;" />
+      <Text fill="WHITE" layoutX="310.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Sungai :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="301.0" layoutY="552.0" prefHeight="32.0" prefWidth="108.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" text="            Biru" />
+      <Text fill="#1f6e8c" layoutX="301.0" layoutY="610.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kekeruhan :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="301.0" layoutY="616.0" prefHeight="32.0" prefWidth="108.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" text="         Jernih" />
+      <Text fill="#1f6e8c" layoutX="446.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ph :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="446.0" layoutY="488.0" prefHeight="32.0" prefWidth="108.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" text="             5" />
+      <Text fill="#1f6e8c" layoutX="446.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bau :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="445.0" layoutY="552.0" prefHeight="32.0" prefWidth="108.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" text="             tidak" />
+      <Text fill="#1f6e8c" layoutX="446.0" layoutY="609.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kondisi :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label layoutX="443.0" layoutY="616.0" prefHeight="32.0" prefWidth="108.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" text="          Terawat" />
+      <Label layoutX="114.0" layoutY="414.0" prefHeight="32.0" prefWidth="108.0" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1f6e8c;" text="      Blue Lagoon" textAlignment="CENTER" />
+      <Button fx:id="lokasi" layoutX="114.0" layoutY="457.0" mnemonicParsing="false" onAction="#dipencetlokasi" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #1f6e8c; -fx-background-radius: 30;" text="Lokasi" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="121.0" fitWidth="134.0" layoutX="101.0" layoutY="261.0">
+         <image>
+            <Image url="@../Gambar/blueLagoon.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="319.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sungai blue lagoon Jogja adalah salah satu sungai alami yang disekelilingnya terdapat pepohonan bambu yang asri dan menampakkan warna permukaan air kebiruan. Obyek wisata ini mulai terkenal sejak tahun 2014 meskipun sebelumnya telah dikunjungi oleh penduduk setempat atau pendatang yang ingin menikmatinya." wrappingWidth="255.0" />
+      <ImageView fitHeight="239.0" fitWidth="228.0" layoutX="622.0" layoutY="464.0">
+         <image>
+            <Image url="@../Gambar/dataanalis.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

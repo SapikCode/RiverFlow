@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #9AC5F4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController.FXMLRekapSungai">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f6e8c" height="126.0" layoutX="-5.0" layoutY="-22.0" stroke="WHITE" strokeType="OUTSIDE" width="1006.0" />
+      <ImageView fitHeight="174.0" fitWidth="228.0" layoutX="786.0" layoutY="-36.0">
+         <image>
+            <Image url="@../Gambar/RiverFlowLogo.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="81.00000762939453" layoutX="885.0" layoutY="11.0" startX="-100.0" stroke="WHITE" />
+      <Text fill="WHITE" layoutX="438.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Data Rekapitulasi">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button layoutX="195.0" layoutY="173.0" mnemonicParsing="false" prefHeight="576.0" prefWidth="739.0" style="-fx-background-color: #1F6E8C; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="196.0" layoutY="143.0" mnemonicParsing="false" prefHeight="576.0" prefWidth="724.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button fx:id="kembali" layoutX="22.0" layoutY="32.0" mnemonicParsing="false" onAction="#kembalikemenu" prefHeight="37.0" prefWidth="65.0" style="-fx-background-color: white; -fx-background-radius: 30;" text="Back" textFill="#1f6e8c">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fill="#1f6e8c" layoutX="241.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Sungai :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="245.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grade :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="347.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="simpan" layoutX="247.0" layoutY="580.0" mnemonicParsing="false" onAction="#dipencetsimpan" prefHeight="40.0" prefWidth="147.0" style="-fx-background-color: #1F6E8C; -fx-background-radius: 30;" text="Simpan" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fill="#1f6e8c" layoutX="236.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="286.0" fitWidth="258.0" layoutX="676.0" layoutY="444.0">
+         <image>
+            <Image url="@../Gambar/research.png" />
+         </image>
+      </ImageView>
+      <Text fill="#1f6e8c" layoutX="498.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suhu :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Tfsuhu" layoutX="487.0" layoutY="246.0" prefHeight="31.0" prefWidth="171.0" style="-fx-background-radius: 30; -fx-border-color: #1F6E8C; -fx-border-radius: 40;" />
+      <Text fill="#1f6e8c" layoutX="498.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ph :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Tfph" layoutX="487.0" layoutY="321.0" prefHeight="31.0" prefWidth="171.0" style="-fx-background-radius: 30; -fx-border-color: #1F6E8C; -fx-border-radius: 40;" />
+      <Text fill="#1f6e8c" layoutX="498.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kondisi:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="725.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warna :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="725.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bau :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#1f6e8c" layoutX="490.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi :">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField layoutX="472.0" layoutY="479.0" prefHeight="106.0" prefWidth="201.0" style="-fx-background-radius: 30; -fx-border-color: #1F6E8C; -fx-border-radius: 30;" />
+      <TextField fx:id="Tftanggal" layoutX="235.0" layoutY="321.0" prefHeight="31.0" prefWidth="171.0" style="-fx-background-radius: 30; -fx-border-color: #1F6E8C; -fx-border-radius: 40;" />
+      <TextField fx:id="Tfsungai" layoutX="235.0" layoutY="246.0" prefHeight="31.0" prefWidth="171.0" style="-fx-background-radius: 30; -fx-border-color: #1F6E8C; -fx-border-radius: 40;" />
+      <Label fx:id="label" layoutX="264.0" layoutY="659.0" prefHeight="30.0" prefWidth="133.0" textFill="#1f6e8c">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Tfgrade" layoutX="238.0" layoutY="400.0" prefHeight="31.0" prefWidth="165.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1F6E8C;" />
+      <ChoiceBox fx:id="Tfkondisi" layoutX="491.0" layoutY="400.0" prefHeight="31.0" prefWidth="165.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1F6E8C;" />
+      <ChoiceBox fx:id="Tfbau" layoutX="716.0" layoutY="321.0" prefHeight="31.0" prefWidth="165.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1F6E8C;" />
+      <ChoiceBox fx:id="Tfwarna" layoutX="716.0" layoutY="246.0" prefHeight="31.0" prefWidth="165.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #1F6E8C;" />
+   </children>
+</AnchorPane>
